@@ -9,8 +9,8 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
 
-TWILIO_SID = "ACe76ab1a13cf70c1e9f24ba17908d14f2"
-TWILIO_AUTHTOKEN = "c8906d09e1c0baab59a6c5dfc184e95a"
+TWILIO_SID = "ACe76ab1a13cf70c1e9f24ba17908dxxxx"
+TWILIO_AUTHTOKEN = "c8906d09e1c0baab59a6c5dfc184xxxx"
 
 def main():
     url = 'https://nssce.etlab.in/user/login'
